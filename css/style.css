@@ -1,0 +1,70 @@
+body
+{
+    margin: 0;  
+    background-color:  rgb(201, 196, 196);
+}
+.navbar
+{
+    background-color:#ff7200;
+    font-family: 'Saira Condensed', sans-serif;
+
+    
+}
+.navbar-brand
+{
+    font-size: 20px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.container{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Saira Condensed', sans-serif;
+}
+.h1{
+    font-size: 20px;
+    
+}
+.form{
+padding: 20px;
+
+}
+
+
+
+.footer
+ {
+    padding: 20px;
+    text-align: center;
+    background-color:#85d9f7;
+    color: white;
+    font-size: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+@media only screen and (max-width:980px){
+   
+    .container{
+        background-color: whitesmoke;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:768px){
+
+    .container{
+        background-color: whitesmoke;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:640px){
+    
+    .container{
+       width: 100%;
+    }
+    
+    
+}
